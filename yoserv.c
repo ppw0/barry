@@ -50,7 +50,7 @@ void do_yo(int sock) {
 
 	    close(sock);
             sqlite3_close(db);
-            printf("Session closed\n", username);
+            printf("Session closed\n");
 	    exit(0);
 
 	} else if (!strncmp("MEIS", buf, 4)) {
