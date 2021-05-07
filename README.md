@@ -62,4 +62,4 @@ $ sqlite3 yo.db
 * `sqlite3_finalize(stmt)` finalizes a prepared statement, which must be done to avoid resource leaks.
 * `sqlite3_exec()` combines `sqlite3_preparev2()`, `sqlite3_step()` and `sqlite3_finalize()`.
 * `while (sqlite3_step(stmt) == SQLITE_ROW)` evaluates the statement and indicates if there’s more data.
-* `sqlite3_column_text(stmt,0)` returns a const unsigned char* to the first character of the first column of the current row of a result set of a prepared statement.
+* `sqlite3_column_text(stmt,0)` returns a `const unsigned char*` to the first character of the first column of the current row of a result set of a prepared statement.
