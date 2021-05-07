@@ -1,4 +1,4 @@
-# barry
+# yoserv
 network server in C
 
 Based on https://www.youtube.com/watch?v=FNc_nWbSMM8
