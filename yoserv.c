@@ -106,7 +106,7 @@ void do_yo(int sock) {
 
             // Message other users
 
-	    if (!state) {
+	    if (state == NOT_AUTH) {
                 complain(sock);
                 continue;
             }
